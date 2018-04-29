@@ -1,5 +1,3 @@
-package programs;
-
 public class MatrixChain {
     private static String name = "ABCDEFG";  
 	private static int[] P = {30, 35, 15, 5, 10, 25, 50, 40};
@@ -44,7 +42,7 @@ public class MatrixChain {
 	}
 	
 	
-	/*Êä³ö¾ØÕóÏà³ËµÄË³Ğò*/
+	/*è¾“å‡ºçŸ©é˜µç›¸ä¹˜çš„é¡ºåº*/
     public static void Display(int[][] s, String name, int i, int j)  
     {  
         if(i == j)  
@@ -64,10 +62,10 @@ public class MatrixChain {
 	    
 		Matrix(P, n, m, s); 
 		
-        System.out.print("×îÉÙĞèÒªµÄ¼ÆËã´ÎÊı£º"+m[1][n]);  
+        System.out.print("æœ€å°‘éœ€è¦çš„è®¡ç®—æ¬¡æ•°ï¼š"+m[1][n]);  
         System.out.println();  
           
-        System.out.print("¾ØÕóÏà³ËµÄË³ĞòÎª£º ");  
+        System.out.print("çŸ©é˜µç›¸ä¹˜çš„é¡ºåºä¸ºï¼š ");  
         Display(s, name, 1, n);  		
 		
 	}
